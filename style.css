@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    color: #006666;
+}
+
+.btn {
+    background-color: #009999;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #007777;
+}
+
+/* Welcome Page */
+.welcome {
+    text-align: center;
+    padding: 50px;
+    background-color: #e0f7f7;
+}
+
+.welcome h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Dashboard */
+.dashboard {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.summary {
+    background-color: #ccf2f4;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Progress Bar */
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 10px;
+}
+
+.progress {
+    width: 80%;
+    height: 100%;
+    background-color: #00cccc;
+    border-radius: 10px;
+}
+
+/* Log Activity */
+.log-activity {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f7fcfc;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Points and Rewards */
+.points-rewards {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* Educational Content */
+.educational-content {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f9f9;
+    border-radius: 10px;
+}
+
+/* Profile/Settings */
+.profile-settings {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
